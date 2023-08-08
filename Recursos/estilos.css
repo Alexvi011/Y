@@ -48,13 +48,15 @@ table{
     margin-top: 0px;
     padding-right: 12px;
     margin-right: 50px;
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
     font-family: F;
     
 }
 
-
+.music{
+    padding-left: 500px;
+}
 .cuadro8 {
     background-color: #e874a4;
     border: solid 5px #2bbcf2;
@@ -181,13 +183,10 @@ table{
 }
 
 
-h1{
-    font-size: 1.5em;
 
-}
 
 .texto2{
-    font-size: 3em;
+    font-size: 1em;
     color: white;
     text-align: center;
     font-family: F;
