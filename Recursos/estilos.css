@@ -95,6 +95,7 @@ table{
     font-size: 30px;
     margin: 0px;
     margin-bottom: 10px;
+    margin-top: 17px;
     padding: 10px;
     text-align: center;
     font-family: F;
@@ -134,7 +135,7 @@ table{
     margin-left: 0%;
     margin-bottom: 30px;
     width: 100%;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     font-family: F;
     
@@ -154,6 +155,7 @@ table{
     width: 100%;
     margin-left: 10px;
     margin-top: 10px;
+    margin-bottom: 20px;
     border-radius: 30px;
     background-color: #2bbcf2;
 }
@@ -288,14 +290,16 @@ h1{
 
 .slider {
     position: relative;
-    background-color: #06b3fa;
+    background-color: #f881b3;
     background-image: url("https://i.gifer.com/origin/6a/6a215df49524df23bbb9ebbd2da7b45f.gif");
-    background-size: 15%;
-    min-height: 100%;
-    border: solid 7px #06b3fa;
-    border-image-slice: 75;
+    background-size: 25% 25%;
+   
+    border: solid 7px #9b4ff3;
+    border-image-slice:5;
+
+
     border-radius: 10px;
-    width: 100%;
+    
     overflow: hidden;
   
 }
@@ -316,7 +320,7 @@ h1{
     position: absolute;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .slider .slide .info {
@@ -335,7 +339,7 @@ h1{
 }
 
 .navigation {
-    height: 500px;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -381,8 +385,9 @@ h1{
     height: 20px;
     transform: translateY(-50px);
     margin: 0 6px;
+    margin-top: 55px;
     border-radius: 2px;
-    box-shadow: 1px 4px 8px 1px rgb(43, 188, 242);
+    box-shadow: 1px 4px 8px 1px rgb(129, 43, 242);
 }
 
 .navigation-visibility .slide-icon.active {
@@ -392,12 +397,14 @@ h1{
 @media (max-width: 900px) {
     .slider {
         width: 100%;
+        height: 2%;
     }
     .slider .slide .info {
         position: relative;
         width: 80%;
         margin-left: auto;
         margin-right: auto;
+        height: 2%;
     }
 }
 
@@ -416,7 +423,7 @@ h1{
     position: absolute;
     left: 0;
     bottom: 1;
-    height: 150px;
+    height: 10px;
     min-width: 1060px;
     width: 100%;
     font-size: 14px;
@@ -432,11 +439,6 @@ h1{
     color: white;
     padding-left: 20px;
     justify-content: space-between;
-}
-
-.fondo {
-
-    float: center;
 }
 
 .fondo2 {
