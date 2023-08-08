@@ -174,7 +174,7 @@ table{
 }
 .texto1{
     text-align: center;
-    font-size: 3em;
+    font-size: 4em;
     color:white;
     font-family: SS;
     src: url("/Recursos/Fonts/Cunia/Sticky\ Sans.otf");
@@ -187,7 +187,7 @@ h1{
 }
 
 .texto2{
-    font-size: 1em;
+    font-size: 3em;
     color: white;
     text-align: center;
     font-family: F;
