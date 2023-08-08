@@ -105,14 +105,10 @@ table{
     border: solid 5px #2bbcf2;
     border-radius: 30px;
     color: white;  
-    margin-left: 20%;
-    width: 60%;
-    margin-top: 100px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    padding-left: 12px;
-    padding-right: 12px;
-    font-size: 35px;
+    margin-left: 0%;
+    width: 100%;
+    font-size: 30px;
+    margin-top: 20px;
     text-align: center;
     font-family: F;
     
@@ -135,8 +131,9 @@ table{
     border: solid 5px #2bbcf2;
     border-radius: 15px;
     color: white;  
-    margin-left: 22%;
-    width: 60%;
+    margin-left: 0%;
+    margin-bottom: 30px;
+    width: 100%;
     font-size: 40px;
     text-align: center;
     font-family: F;
@@ -159,6 +156,13 @@ table{
     margin-top: 10px;
     border-radius: 30px;
     background-color: #2bbcf2;
+}
+
+
+.image2 {
+    width: 100%;
+    border-radius: 30px;
+    background-color: black;
 }
 
 .fondoazul{
@@ -287,15 +291,13 @@ h1{
     background-color: #06b3fa;
     background-image: url("https://i.gifer.com/origin/6a/6a215df49524df23bbb9ebbd2da7b45f.gif");
     background-size: 15%;
-    min-height: 500px;
+    min-height: 100%;
     border: solid 7px #06b3fa;
     border-image-slice: 75;
     border-radius: 10px;
-    width: 800px;
+    width: 100%;
     overflow: hidden;
-    margin-left: 29%;
-    margin-right: 30%;
-    margin-top: 2%;
+  
 }
 
 .slider .slide {
@@ -513,13 +515,11 @@ h1{
 .text2 {
     border: solid white 6px;
     color: white;
-    margin-top: 100px;
-    margin-left: 550px;
-    font-size: 30px;
+    font-size: 20px;
     font-family: F;
     background: black;
     border-radius: 30px;
-    width: 1px;
+    width: 100%;
     text-align: center;
 
 }
