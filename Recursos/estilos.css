@@ -41,22 +41,20 @@ table{
     border: solid 8px #9b4ff3;
     border-radius: 20px;
     color: white;  
-    width:95%;
+    width:93%;
     padding-bottom: 30px;
     padding-top: 30px;
     padding-left: 12px;
     margin-top: 0px;
     padding-right: 12px;
     margin-right: 50px;
-    font-size: 4em;
+    font-size: 2em;
     text-align: center;
     font-family: F;
     
 }
 
-.music{
-    padding-left: 500px;
-}
+
 .cuadro8 {
     background-color: #e874a4;
     border: solid 5px #2bbcf2;
@@ -64,25 +62,22 @@ table{
     color: white;  
     width:90%;
     padding: 20px;
-    margin-top: 0px;
+    margin-top: 20px;
     font-size: 25px;
     text-align: center;
     font-family: F;
     
 }
-.pad{
-    margin-top: -400px;
-    margin-left: -400px;
-}
+
 .cuadro1 {
     background-color: #e874a4;
     border: solid 5px #2bbcf2;
     border-radius: 15px;
     color: white;  
-    margin-left: 10px;
-    width: 50%;
-    padding-left: 12px;
-    padding: 60px;
+    margin-left: 0px;
+    width: 100%;
+    padding-left: 0px;
+    padding: 10px;
     font-size: 30px;
     text-align: center;
     font-family: F;
@@ -96,9 +91,11 @@ table{
     border: solid 5px #2bbcf2;
     border-radius: 15px;
     color: white;  
-    margin-left: 0px;
     width: 100%;
     font-size: 30px;
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 10px;
     text-align: center;
     font-family: F;
     
@@ -146,20 +143,20 @@ table{
     
 }
 
-.cuadro9 {
-   margin-top: 0px;
-   
-    
-}
+
 
 .border3 {
     width: 100%;
+    align-items: center;
+    padding-left: 15px;
     border-radius: 30px;
-    background-color: #2bbcf2;
+    
 }
 
 .image {
     width: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
     border-radius: 30px;
     background-color: #2bbcf2;
 }
@@ -176,14 +173,17 @@ table{
 }
 .texto1{
     text-align: center;
-    font-size: 6em;
+    font-size: 2.5em;
     color:white;
     font-family: SS;
     src: url("/Recursos/Fonts/Cunia/Sticky\ Sans.otf");
 }
 
 
+h1{
+    font-size: 1.5em;
 
+}
 
 .texto2{
     font-size: 1em;
@@ -193,9 +193,10 @@ table{
 }
 
 .texto2-1{
-    font-size:1em;
+    font-size:3em;
     color:white;
-    text-align: left;
+    text-align: center;
+    font-family: F;
 }
 .texto3{
     font-size: 1em;
