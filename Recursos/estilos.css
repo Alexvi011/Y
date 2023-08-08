@@ -31,21 +31,21 @@ table{
 }
 
 .fondoblanco{
-    background-color:#ffa1c8;
+    background-color:#f881b3;
     border-radius: 30px;
     width: 100%;
 
 }
 .cuadro3 {
     background-color: #e874a4;
-    border: solid 5px #2bbcf2;
-    border-radius: 15px;
+    border: solid 8px #9b4ff3;
+    border-radius: 20px;
     color: white;  
-    width:70%;
+    width:95%;
     padding-bottom: 30px;
     padding-top: 30px;
     padding-left: 12px;
-    margin-top: -150px;
+    margin-top: 0px;
     padding-right: 12px;
     margin-right: 50px;
     font-size: 25px;
@@ -60,9 +60,9 @@ table{
     border: solid 5px #2bbcf2;
     border-radius: 15px;
     color: white;  
-    width:47%;
+    width:90%;
     padding: 20px;
-    margin-top: -300px;
+    margin-top: 0px;
     font-size: 25px;
     text-align: center;
     font-family: F;
@@ -78,11 +78,10 @@ table{
     border-radius: 15px;
     color: white;  
     margin-left: 10px;
-    
     width: 50%;
     padding-left: 12px;
     padding: 60px;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     font-family: F;
     
@@ -95,8 +94,8 @@ table{
     border: solid 5px #2bbcf2;
     border-radius: 15px;
     color: white;  
-    margin-left: 10px;
-    width: 50%;
+    margin-left: 0px;
+    width: 100%;
     font-size: 30px;
     text-align: center;
     font-family: F;
@@ -146,19 +145,19 @@ table{
 }
 
 .cuadro9 {
-   margin-top: -200px;
+   margin-top: 0px;
    
     
 }
 
 .border3 {
-    width: 80%;
+    width: 100%;
     border-radius: 30px;
     background-color: #2bbcf2;
 }
 
 .image {
-    width: 50%;
+    width: 100%;
     border-radius: 30px;
     background-color: #2bbcf2;
 }
@@ -175,11 +174,18 @@ table{
 }
 .texto1{
     text-align: center;
-    font-size: 5em;
+    font-size: 3em;
     color:white;
     font-family: SS;
     src: url("/Recursos/Fonts/Cunia/Sticky\ Sans.otf");
 }
+
+
+h1{
+    font-size: 1.5em;
+
+}
+
 .texto2{
     font-size: 1em;
     color: white;
@@ -210,8 +216,8 @@ table{
 }
 
 .bordeblanco{
-    border:15px solid #2196f3;
-    background-color: #ffa1c8;;
+    border:10px solid #9b4ff3;
+    background-color: #f881b3;;
 
     border-radius: 30px;
     width: 100%;
