@@ -13,7 +13,7 @@
     font-style: normal;
  }
 
-body{
+ body{
     background-image: url("Media/fondo_alt.jpg");
     background-size: cover;
     margin:0;
@@ -57,7 +57,7 @@ table{
 
 .cuadro8 {
     background-color: #e874a4;
-    border: solid 5px #2bbcf2;
+    border: solid 5px #9b4ff3;
     border-radius: 15px;
     color: white;  
     width:90%;
@@ -71,7 +71,7 @@ table{
 
 .cuadro1 {
     background-color: #e874a4;
-    border: solid 5px #2bbcf2;
+    border: solid 5px #9b4ff3;
     border-radius: 15px;
     color: white;  
     margin-left: 0px;
@@ -88,7 +88,7 @@ table{
 
 .cuadro10 {
     background-color: #e874a4;
-    border: solid 5px #2bbcf2;
+    border: solid 5px #9b4ff3;
     border-radius: 15px;
     color: white;  
     width: 100%;
@@ -96,25 +96,30 @@ table{
     margin: 0px;
     margin-bottom: 10px;
     margin-top: 17px;
-    padding: 10px;
+    padding: 16px;
     text-align: center;
     font-family: F;
     
 }
 .cuadro5 {
     background-color: #e874a4;
-    border: solid 5px #2bbcf2;
+    border: solid 5px #9b4ff3;
     border-radius: 30px;
     color: white;  
     margin-left: 0%;
     width: 100%;
     font-size: 30px;
     margin-top: 20px;
+    padding: 27px;
+
     text-align: center;
     font-family: F;
     
 }
-
+.tok{
+    padding-right: 100px;
+    margin-right: 500px;
+}
 .cuadro {
   
     border-radius: 15px;
@@ -129,13 +134,17 @@ table{
 
 .cuadro4 {
     background-color: #e874a4;
-    border: solid 5px #2bbcf2;
+    border: solid 5px #9b4ff3;
     border-radius: 15px;
     color: white;  
-    margin-left: 0%;
+
     margin-bottom: 30px;
+    
     width: 100%;
-    font-size: 30px;
+    padding-right: 69px;
+    padding-left: 69px;
+
+    font-size: 40px;
     text-align: center;
     font-family: F;
     
@@ -157,19 +166,20 @@ table{
     margin-top: 10px;
     margin-bottom: 20px;
     border-radius: 30px;
-    background-color: #2bbcf2;
+    background-color: #9b4ff3;
 }
 
 
 .image2 {
     width: 100%;
+   
     border-radius: 30px;
     background-color: black;
 }
 
 .fondoazul{
     background-color:#06b3fa ;
-    background-color: #e874a4;
+    background-color: #9b4ff3;
 
 }
 
@@ -293,11 +303,11 @@ h1{
     background-color: #f881b3;
     background-image: url("https://i.gifer.com/origin/6a/6a215df49524df23bbb9ebbd2da7b45f.gif");
     background-size: 25% 25%;
-   
+   min-width: 100%;
+   padding-right: 50px;
     border: solid 7px #9b4ff3;
     border-image-slice:5;
-
-
+    width: 100%;
     border-radius: 10px;
     
     overflow: hidden;
@@ -327,7 +337,7 @@ h1{
     position: absolute;
     color: black;
     background: rgba(255, 255, 255, 0.3);
-    width: 30%;
+    width: 50%;
     padding-left: 20px;
     border-radius: 5px;
     box-shadow: 1px 4px 8px 1px rgb(43, 188, 242);
@@ -521,6 +531,8 @@ h1{
     font-family: F;
     background: black;
     border-radius: 30px;
+    margin-left: 30px;
+    margin-bottom: 50px;
     width: 100%;
     text-align: center;
 
